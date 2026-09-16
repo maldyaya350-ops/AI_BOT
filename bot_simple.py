@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 from groq import Groq
 
 load_dotenv()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8513780659:AAEfY9E_ystaZlZB4HlD6XagfXTMGrHYR6A")
-CHAT_ID = os.getenv("CHAT_ID", "8166156987")
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID", "YOUR_TELEGRAM_CHAT_ID")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "YOUR_GROQ_API")
 GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 REASONING_EFFORT = os.getenv("REASONING_EFFORT", "high")
 REASONING_FORMAT = os.getenv("REASONING_FORMAT", "parsed")
