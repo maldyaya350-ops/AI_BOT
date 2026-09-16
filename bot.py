@@ -157,7 +157,7 @@ def query_groq(chat_id: int, user_text: str) -> str:
             model=GROQ_MODEL,
             messages=messages,
             temperature=TEMPERATURE,
-            max_tokens=4096,
+            max_tokens=800,
             top_p=1,
             **kwargs,
         )
@@ -226,7 +226,7 @@ async def query_groq_with_tools(chat_id: int, user_text: str, bot_chat_id: int) 
                     tools=tools,
                     tool_choice="auto",
                     temperature=TEMPERATURE,
-                    max_tokens=4096,
+                    max_tokens=800,
                     top_p=1,
                     **base_kwargs,
                 )
