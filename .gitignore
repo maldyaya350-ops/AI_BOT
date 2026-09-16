@@ -1,0 +1,34 @@
+# Environment & secrets
+
+# Telethon session files (contain auth keys - NEVER commit)
+*.session
+*.session-journal
+telegram_ai_session.session
+telegram_ai_session.session-journal
+user_session.session
+user_session.session-journal
+*_session.session
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+bot.log
+bot_err.log
+
+# OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
