@@ -41,9 +41,9 @@ GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 
 # Fallbacks for legacy (avoid hardcoding secrets in logs; use env only)
 if not BOT_TOKEN:
-    BOT_TOKEN = "8513780659:AAEfY9E_ystaZlZB4HlD6XagfXTMGrHYR6A"
+    BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
 if not GROQ_API_KEY:
-    GROQ_API_KEY = "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"
+    GROQ_API_KEY = "your_groq_api"
 
 REASONING_EFFORT = os.getenv("REASONING_EFFORT", "high")
 REASONING_FORMAT = os.getenv("REASONING_FORMAT", "hidden")
